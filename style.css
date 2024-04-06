@@ -1,0 +1,164 @@
+ body{
+    margin:0px;
+    
+    }
+ #header{
+    height:20px;
+    background:#cf89b0;
+    }
+ h6{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+header {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    align-items: center;
+ }
+
+ li {
+    display: inline;
+    justify-content: right;
+    margin-right: 50px;
+   }
+
+ header img {
+    width: 50px;
+ }
+
+li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(12, 12, 12);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.d-flex{
+    font-size: medium;
+    display: flex;
+    justify-content:end;
+}
+.btn{
+    color: #cf89b0;
+}
+#intro img {
+
+    width: 1300px;
+    height: auto;
+}
+
+h1 {
+    color: #e91b8c ;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+ }
+
+p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+   }
+
+.card {
+    background-color: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    background-color: rgb(240, 152, 225);
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.car1 {
+    background-image: url(promenade.png);
+}
+
+.car2 {
+    background-image: url(CHAMBRE.png);
+}
+
+.car3 {
+    background-image: url(habillement.png);
+}
+.car4 {
+    background-image: url(en\ voiture.png);
+}
+
+.card a {
+    background: rgb(252, 238, 245);
+    color: rgb(230, 64, 155);
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 20px 50px;
+    display: block;
+    text-align: center;
+}
+footer{
+    background-color: #f3dbe8;
+    }
+img {
+    display: block;
+    padding: auto;
+    margin: auto;
+    }
+#contact {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+#contact h1 {
+    color:#e91b8c ;
+
+}
+
+#contact input {
+    width: 40%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+form {
+max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+      background-color: white;
+
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    body {
+    background-color: rgb(247, 136, 201);
+    }
+  }
+i {
+    color: #f85ef8;
+  }
